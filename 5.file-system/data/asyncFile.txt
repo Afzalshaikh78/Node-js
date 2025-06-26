@@ -1,0 +1,2 @@
+hello from async file
+appended text to async file
