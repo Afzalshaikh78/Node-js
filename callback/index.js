@@ -77,15 +77,25 @@ const fs = require("fs");
 // doSteps();
 
 
+// async function readFile() {
+//   try {
+//     const data = await fs.promises.readFile('file.txt', 'utf8');
+//     console.log(data);
+    
+//   } catch (error) {
+//     console.error('Error reading file:', error);
+    
+//   }
+// }
+
+// readFile();
+
 async function readFile() {
   try {
     const data = await fs.promises.readFile('file.txt', 'utf8');
     console.log(data);
-    
   } catch (error) {
     console.error('Error reading file:', error);
-    
   }
 }
-
 readFile();
