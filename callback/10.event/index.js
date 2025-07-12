@@ -11,6 +11,12 @@
 // myEmitter.emit('event', 'Hello, World!');
 
 
+// const EventEmitter = require('events');
+// const myEmitter = new EventEmitter();
+// myEmitter.on('event', (message) => {
+//   console.log(`An event occurred! Message: ${message}`);
+// });
+// myEmitter.emit('event', 'Hello, World!');
 const EventEmitter = require('events');
 const myEmitter = new EventEmitter();
 myEmitter.on('event', (message) => {
